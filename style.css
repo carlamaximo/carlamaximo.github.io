@@ -1,0 +1,28 @@
+
+    img{
+        border-radius: 60%;
+    }
+
+    body {
+        background-color: #FF1493;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+    .button {
+        background-color: blue;
+        border-radius: 4px;
+        padding: 30px, 60px;
+        color:white;
+        text-decoration: none
+        }
+
+    .button li{
+                background-color: black;
+            }
+
+    div {
+                display: inline-block;
+                border: 5px solid black;
+                padding: 5px;
+                text-align: center;
+            }
