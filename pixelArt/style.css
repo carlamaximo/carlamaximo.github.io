@@ -1,0 +1,59 @@
+body {
+  position: center;
+  text-align: center;
+}
+
+
+aside#instrucoes {
+  margin-left: -50px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.color {
+  border: 1px black solid;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#pixel-board div {
+  display: inline-block;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel {
+  background-color: white;
+  margin-top: -5px;
+}
+
+#color-palette {
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.class-btn-clear {
+  position: top;
+}
+
+section div{
+  background-color: white;
+}
+
+button {
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+  background-color: violet;
+  border-radius: 15px;
+  padding: 2px;
+  color:rgba(0, 0, 0, 0.699);
+}
+
+input {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+
+}

@@ -1,40 +1,76 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+#menu {
+    background:url(https://www.clubedospaninhos.com.br/wp-content/uploads/2019/10/900181-Multi-Cora%C3%A7%C3%B5es-Preto-1000x1000.jpg) ;
+    color:white;
+    width: 1000px;
+    padding: 30px 150px;
+    margin: 1px 1px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:xx-large;
+}
 
-    img{
-        border-radius: 60%;
-        border: 2px solid black
-    }
+hr {
+    color: black;
+}
 
-    body {
-        margin:auto;
-        background-color: #FF1493;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
+nav a{
+    text-decoration: none;
+    color: rgb(54, 51, 51);
+}
 
-    .button {
-        background-color: blue;
-        border-radius: 4px;
-        padding: 30px, 60px;
-        color:white;
-        text-decoration: none
-        }
+#minha-foto{
+    border-radius: 45%;
+}
 
-    div {
-        display: inline-block;
-        border: 2px solid black;
-        padding: 5px;
-        text-align: center;
-            }
-    .navegation {
-        display: inline-block;
-        background-color: black;
-        color: white;
-        text-decoration: none
+main div ul#informations {
+    width: 300px;
+    border: 1px solid;
+    display: inline-block;
+    padding-bottom: 15px;
+}
 
-    }
+main div ul#hardskills {
+    width: 300px;
+    border: 1px solid;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+#pixel-art{
+    width: 3px;
+    display: inline-block;
+    margin-left: -5px;
+}
+section#meus-projetos-trybe div img {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397)
+}
+button{
+    width: 120px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397)
+    
+}
+section div{
+    display: inline;
+}
+#lista-tarefas{
+    display: inline-block;
+    width: 3px;
+    margin-left: 150px;
+}
+section {
+    border: 1px solid;
+}
 
-    section{
-        background-image: url(devvv.webp);
-        padding: 1%;
-        color:white;
+section#meus-projetos-trybe {
+    width: 500px;
+    padding-bottom: 15px;
+    margin-left: 400px;
+}
 
-    }
+section h2 {
+    font-size: 20px;
+}

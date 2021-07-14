@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte em Pixel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon-pix.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+  <main>
+    <section id="color-palette">
+      <div class="color" style="background-color: black;" id="black"></div>
+      <div class="color" style="background-color: blueviolet;"></div>
+      <div class="color" style="background-color: red;"></div>
+      <div class="color" style="background-color: blue;"></div>
+    </section>
+    <h3 id='numero-pixels'>Escreva o número de pixels desejado, clique em "VQV" e se divirta!</h3>
+    <input type="number" id="board-size" min=1>
+    <button id="generate-board">VQV</button>
+    <button id="clear-board"></button>
+
+    <div id="pixel-board"></div>
+    
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
