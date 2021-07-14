@@ -1,6 +1,8 @@
 body {
   position: center;
   text-align: center;
+  background-image: url(fundo-pixel.png);
+  background-size: 1000px;
 }
 
 
