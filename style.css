@@ -80,3 +80,7 @@ section h2 {
 div.contatos a img {
     border-radius: 10px;
 }
+
+footer {
+    margin-top: 10px;
+}
