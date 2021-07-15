@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: rgb(238, 32, 176);
     text-align: center;
 }
 #menu {
@@ -45,13 +45,15 @@ main div ul#hardskills {
     margin-left: -5px;
 }
 section#meus-projetos-trybe div img {
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397)
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
 }
 button{
     width: 120px;
     margin-bottom: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397)
-    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
+    background-color: violet;
 }
 section div{
     display: inline;
@@ -73,4 +75,8 @@ section#meus-projetos-trybe {
 
 section h2 {
     font-size: 20px;
+}
+
+div.contatos a img {
+    border-radius: 10px;
 }
