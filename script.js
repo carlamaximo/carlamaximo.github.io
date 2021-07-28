@@ -1,28 +1,30 @@
-// Habilidades utilizadas
+// Botões Projetos Trybe
 const btnPixel = document.querySelector('#btn-pixel');
-
-function listaHabilidadesPixel() {
-  alert('Habilidades utilizadas: HTML5, CSS e JavaScript.');
-}
-
-btnPixel.addEventListener('click', listaHabilidadesPixel);
-
 const btnTarefas = document.querySelector('#btn-tarefas');
+const btnTrybewarts = document.querySelector('#btn-trybewarts');
 
-function listaHabilidadesTarefas() {
-  alert('Habilidades utilizadas: HTML5, CSS e JavaScript.');
+const arrayProjetos = [btnPixel, btnTarefas, btnTrybewarts];
+
+function botaoCima (event) {
+  event.target.classList.add('cimaBotao');
 }
 
-btnTarefas.addEventListener('click', listaHabilidadesTarefas);
+function botaoSai (event) {
+  event.target.classList.remove('cimaBotao');
+}
+
+for (let i = 0; i < arrayProjetos.length; i += 1){
+  arrayProjetos[i].addEventListener('mouseover', botaoCima);
+  arrayProjetos[i].addEventListener('mouseout', botaoSai);
+}
 
 // Menu
 
 const projetos = document.getElementById('projetos');
 const contato = document.getElementById('contato');
-const habilidades = document.getElementById
-('habilidades');
+const habilidades = document.getElementById('habilidades');
 
-const array = [projetos, contato, habilidades];
+const arrayMenu = [projetos, contato, habilidades];
 
 function cima (event) {
   event.target.classList.add('cima');
@@ -33,10 +35,8 @@ function sai (event) {
 }
 
 
-for (let i = 0; i < array.length; i += 1){
-  array[i].addEventListener('mouseover', cima);
-  array[i].addEventListener('mouseout', sai);
+for (let i = 0; i < arrayMenu.length; i += 1){
+  arrayMenu[i].addEventListener('mouseover', cima);
+  arrayMenu[i].addEventListener('mouseout', sai);
 }
-
-
 
