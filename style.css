@@ -1,86 +1,55 @@
-body {
-    background-color: rgb(238, 32, 176);
-    text-align: center;
-}
-#menu {
-    background:url(https://www.clubedospaninhos.com.br/wp-content/uploads/2019/10/900181-Multi-Cora%C3%A7%C3%B5es-Preto-1000x1000.jpg) ;
-    color:white;
-    width: 1000px;
-    padding: 30px 150px;
-    margin: 1px 1px;
-    text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size:xx-large;
+ * {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
 }
 
-hr {
-    color: black;
+header {
+	background-color: purple;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
 }
 
-nav a{
-    text-decoration: none;
-    color: rgb(54, 51, 51);
+header nav a{
+	text-decoration: none;
+	color: rgb(184, 184, 184);
+	font-size: 1.8em;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#minha-foto{
-    border-radius: 45%;
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(184, 184, 184);
+	color:white;
+	font-size: 1.2em;
+	padding-top: 80px;
 }
 
-main div ul#informations {
-    width: 300px;
-    border: 1px solid;
-    display: inline-block;
-    padding-bottom: 15px;
+main img#minha-foto {
+	border-radius: 30px;
 }
 
-main div ul#hardskills {
-    width: 300px;
-    border: 1px solid;
-    display: inline-block;
-    padding-bottom: 15px;
+.cima {
+	color: rgb(19, 18, 18);
+	font-size: 1.4em;
 }
-#pixel-art{
-    width: 3px;
-    display: inline-block;
-    margin-left: -5px;
-}
-section#meus-projetos-trybe div img {
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
-    border-radius: 20px;
-}
-button{
-    width: 120px;
-    margin-bottom: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
-    border-radius: 20px;
-    background-color: violet;
-}
-section div{
-    display: inline;
-}
-#lista-tarefas{
-    display: inline-block;
-    width: 3px;
-    margin-left: 150px;
-}
+
 section {
-    border: 1px solid;
+
 }
 
-section#meus-projetos-trybe {
-    width: 500px;
-    padding-bottom: 15px;
-    margin-left: 400px;
+div#infos-gerais {
+	display: flex;
 }
 
-section h2 {
-    font-size: 20px;
-}
-
-div.contatos a img {
-    border-radius: 10px;
-}
-
-footer {
-    margin-top: 10px;
+#informations {
+	border: 1px solid rgb(29, 21, 21);
 }

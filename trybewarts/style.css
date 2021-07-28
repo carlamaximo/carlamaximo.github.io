@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+button#logar {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(211, 66, 47);
+  margin-left: 2px;
+}
+
+div.header-inputs {
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.trybewarts-header-logo {
+  justify-content: left;
+  width: 80px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 4em;
+  align-self: center;
+  font-family: Della Respira, serif;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#login {
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  background-color: gray;
+  padding-left: 5%;
+  font-size: 1.2em;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+.div-inputs {
+  display: flex;
+  margin-top: 5%;
+}
+
+.div-second {
+  display: flex;
+}
+
+h4#label-rate {
+  color: black;
+  opacity: none;
+}
+
+.div-label-rate {
+  display: flex;
+  opacity: 0.7;
+}
+
+button#submit-btn {
+  width: 90px;
+  height: 50px;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-color: rgb(50, 167, 145);
+  color: black;
+  margin-bottom: 20px;
+}
+
+div.materias {
+  display: flex;
+  width: 300px;
+  padding-left: 20%;
+  margin-left: 20%;
+}
+
+input.subject {
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+.deixe-seu-comentario {
+  margin-bottom: 50px;
+  padding: 50px;
+  color: black;
+}
+
+.textarea {
+  color: black;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.label-family-input {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: rgb(68, 64, 64);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 5px;
+  height: 30px;
+  width: auto;
+  margin: 5px
+}
